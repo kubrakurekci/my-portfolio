@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "title": "Merhaba, Ben Kübra",
+    "subtitle": "Frontend Geliştirici"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "education": {
+    "title": "Eğitim",
+    "items": [
+      {
+        "id": 1,
+        "university": "Kocaeli Üniversitesi",
+        "degree": "Önlisans Derecesi",
+        "field": "Tıbbi Laboratuvar Teknikleri",
+        "class": "Mezun",
+        "gno": "3.39/4.00",
+        "year": "2019-2021",
+        "bg": "/assets/koü.jpeg",
+        "cardColor": "#02b95d"
+      },
+      {
+        "id": 2,
+        "university": "İstanbul Üniversitesi",
+        "degree": "Önlisans Derecesi",
+        "field": "Web Tasarım ve Kodlama",
+        "class": "Mezun",
+        "gno": "3.29/4.00",
+        "year": "2023-2025",
+        "bg": "/assets/iü.jpg",
+        "cardColor": "#F1C912"
+      },
+      {
+        "id": 3,
+        "university": "Anadolu Üniversitesi",
+        "degree": "Lisans Derecesi",
+        "field": "Yönetim Bilişim Sistemleri",
+        "class": "3. Sınıf",
+        "gno": "3.29/4.00",
+        "year": "2025 - Devam",
+        "bg": "/assets/aöf.jpg",
+        "cardColor": "#9D2020"
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "id": 1,
+        "name": "Keeper App",
+        "description": "Keeper App, React’ın temel kavramlarını (state yönetimi, component yapısı ve event kullanımı) uygulamak amacıyla geliştirdiğim etkileşimli bir not alma web uygulamasıdır.",
+        "video": "keeperapp.mp4",
+        "link": "https://kubrakurekci.github.io/keeper/"
+      },
+      {
+        "id": 2,
+        "name": "BluePlanet",
+        "description": "HTML, CSS ve JavaScript kullanarak geliştirdiğimiz, çevre bilincine odaklanan bu proje 3 kişilik bir ekip tarafından ortaklaşa hazırlanmıştır. Projede Ana Sayfa, Çocuklara Özel ve Biz Kimiz sayfalarının tasarım ve geliştirme süreçlerinden sorumluydum.",
+        "video": "blueplanet.mp4",
+        "link": "https://github.com/kubrakurekci/BluePlanet"
+      },
+      {
+        "id": 3,
+        "name": "Doughlicious",
+        "description": "Figma ve Adobe Photoshop kullanarak tasarladığım bu proje, restoranlar için geliştirilen bir QR menü arayüzü prototipidir. Kullanıcı deneyimi ve görsel hiyerarşi odaklı olarak hazırlanmıştır.",
+        "video": "doughlicious.mp4",
+        "link": "https://www.behance.net/gallery/223398381/Doughlicious"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "rating": 4
+    },
+    { "id": 2, "name": "CSS", "rating": 4 },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "name": "Node.js",
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "name": "Express.js",
+      "rating": 2
+    },
+    {
+      "id": 7,
+      "name": "Figma",
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "name": "Git & GitHub",
+      "rating": 3
+    }
+  ]
+}

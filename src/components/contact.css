@@ -1,0 +1,49 @@
+.fly-container {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.fly-container .plane-wrapper {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fly-container #svg-stage {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-text {
+    width: 40%;
+}
+
+.contact-text h2 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.contact-container{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width: 100%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right:25% ;
+    gap: 8px;
+    margin-top: 12px;
+}
