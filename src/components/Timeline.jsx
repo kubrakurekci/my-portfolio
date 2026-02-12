@@ -60,7 +60,7 @@ function Timeline() {
             key={item.id}
             className={`timelineCard card-${index + 1}`}
             style={{
-              backgroundImage: `url(/portfolio/${item.bg})`,
+              backgroundImage: `url(/my-portfolio/${item.bg})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

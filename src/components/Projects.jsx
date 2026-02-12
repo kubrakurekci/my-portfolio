@@ -52,7 +52,7 @@ function ProjectsCursorEffect() {
       >
         <video
           ref={videoRef}
-          src={`/portfolio/assets/${item.video}`}
+          src={`/my-portfolio/assets/${item.video}`}
           muted
           playsInline
           className="card-img"
