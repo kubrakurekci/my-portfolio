@@ -50,8 +50,6 @@ body {
   border-radius: 0 0 8% 8% ;
 }
 .hero {
-  background-color: #12222d;
-  transition: background-color 0.5s;
   border-radius: 0 0 9% 9%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
