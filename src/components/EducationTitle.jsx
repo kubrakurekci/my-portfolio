@@ -63,7 +63,7 @@ function EducationTitle() {
       <div ref={containerRef} className="relative h-24 ">
         <img
           ref={imgRef}
-          src="/assets/education.png"
+          src="/portfolio/assets/education.png"
           className="flair"
           alt=""
         />
