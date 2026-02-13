@@ -54,6 +54,9 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .timeline-header {
@@ -68,7 +71,7 @@ body {
 
 .timeline-container {
   position: relative;
-  height: 100vh;
+  min-height:100vh ;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -79,15 +82,16 @@ body {
 }
 .education-info{
   padding: 24px;
-  border-radius:24px 0 0 24px;
+  border-radius: 24px 0 0 24px;
   color: #eeeeee;
-  width:min(28vw);
-  height: min(30vh);
-  display:flex;
+  width: clamp(260px, 28vw, 420px);
+  height: clamp(210px, 25vh, 280px);
+  display: flex;
   flex-direction: column;
-  justify-content:end;
-  align-items: end;
-  text-align: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  transition: all 0.2s ease;
 }
 
 .flair{
@@ -127,4 +131,11 @@ position: absolute;
 }
 .container-skills{
  margin: 150px 64px;
+}
+@media screen and (max-width: 768px) {
+    .media-content{
+      overflow-x: unset;
+    }}
+.skills-text{
+  color: white;
 }

@@ -4,7 +4,6 @@ import rating from "../locales/tr.json";
 import "bulma/css/bulma.min.css"
 import SkillsHeader from "./SkillsHeader";
 import DialogContent from "@mui/material/DialogContent";
-
 function Skills() {
   return (
     <div>
@@ -17,7 +16,9 @@ function Skills() {
                 <div className="card-content">
                   <div className="media">
                     <div className="media-content">
-                      <p className="title is-4">{item.name}</p>
+                      <p className="skills-text text-xl sm:text-base md:text-lg lg:text-xl">
+                        {item.name}
+                      </p>
                     </div>
                   </div>
                   <div className="content">

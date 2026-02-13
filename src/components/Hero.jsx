@@ -56,18 +56,28 @@ function Hero() {
  }, []);
 
   return (
-    <div className="hero min-h-screen bottom-1" ref={containerRef} id="hero">
-      <video className="videoTag" autoPlay loop muted>
+    <div
+      className="hero min-h-screen relative overflow-hidden"
+      ref={containerRef}
+      id="hero"
+    >
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+      >
         <source src={video} type="video/mp4" />
       </video>
-      <div id="demo" className="w-full max-w-4xl mx-auto px-4 py-20">
+
+      <div id="demo" className="relative w-full max-w-4xl mx-auto px-4 py-20">
         <div id="quote" ref={quoteRef} className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-3">
             Merhaba!
           </h1>
           <p className="text-xl md:text-2xl leading-relaxed">
-            Ben Kübra. Front-End Developer olma yolunda kendimi geliştiriyorum. Yaptığım projeleri ve teknik becerilerimi burada
-            bulabilirsiniz.
+            Ben Kübra. Front-End Developer olma yolunda kendimi geliştiriyorum.
+            Yaptığım projeleri ve teknik becerilerimi burada bulabilirsiniz.
           </p>
         </div>
       </div>

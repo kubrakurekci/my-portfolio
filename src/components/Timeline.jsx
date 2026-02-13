@@ -52,7 +52,7 @@ function Timeline() {
   }, []);
 
   return (
-    <div >
+    <div>
       <EducationTitle />
       <div className="timeline-container" ref={containerRef}>
         {educationData.education.items.map((item, index) => (
@@ -71,12 +71,18 @@ function Timeline() {
                 backgroundColor: item.cardColor,
               }}
             >
-              <h2 className="text-4xl">{item.university}</h2>
-              <p className="text-3xl">{item.field}</p>
-              <p className="text-2xl">{item.degree}</p>
-              <p className="text-xl">{item.class}</p>
-              <p className="text-lg">GNO: {item.gno}</p>
-              <p className="text-base">{item.year}</p>
+              <h2 className="text-lg sm:text-xl md:text-xl lg:text-3xl">
+                {item.university}
+              </h2>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+                {item.field}
+              </p>
+              <p className="text-sm sm:text-base md:text-lg">{item.degree}</p>
+              <p className="text-sm sm:text-base md:text-base">{item.class}</p>
+              <p className="text-sm sm:text-base md:text-base">
+                GNO: {item.gno}
+              </p>
+              <p className="text-sm sm:text-base md:text-base">{item.year}</p>
             </div>
           </div>
         ))}

@@ -158,12 +158,17 @@ function SkillsHeader() {
 
   return (
     <div className="skills-header">
-  <div ref={stageRef} className="stage">
-    <div className="skills-content">
-      <h1 ref={txtRef} className="skills-txt">Teknik Becerilerim</h1>
+      <div ref={stageRef} className="stage">
+        <div className="skills-content">
+          <h1
+            ref={txtRef}
+            className="skills-txt text-xl sm:text-2xl md:text-4xl lg:text-6xl "
+          >
+            Teknik Becerilerim
+          </h1>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   );
 }
 
