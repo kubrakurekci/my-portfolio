@@ -1,16 +1,20 @@
-# React + Vite
+## 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I published my personal portfolio website, where I focused on building a component-based structure using modern frontend tools. Throughout the process, I aimed to improve both performance and maintainability while strengthening my practical skills.
 
-Currently, two official plugins are available:
+### 🔧 Technologies Used
+- Vite – Fast development and build process  
+- React – Reusable component-based architecture  
+- DaisyUI & Material UI – UI components and design system  
+- GSAP – Smooth and engaging animations  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📂 Project Structure
+Instead of hardcoding content inside components, I stored the data in a central JSON file and dynamically rendered it by mapping through the data. This made the project more organized, scalable, and easier to manage.
 
-## React Compiler
+### 🔗 Live Demo
+[View Portfolio](https://kubrakurekci.github.io/my-portfolio/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💡 Notes
+While building this project, I spent a lot of time experimenting with GitHub workflows and fine-tuning animations using GSAP. It was a challenging but very educational process that helped me grow as a developer.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is still evolving — I’ll continue updating it as I build new projects and learn new technologies.
