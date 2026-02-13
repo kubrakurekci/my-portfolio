@@ -71,10 +71,10 @@ function Timeline() {
                 backgroundColor: item.cardColor,
               }}
             >
-              <h2 className="text-lg sm:text-xl md:text-xl lg:text-3xl">
+              <h2 className="text-lg sm:text-lg md:text-lg lg:text-3xl">
                 {item.university}
               </h2>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl">
+              <p className="text-base sm:text-base md:text-lg lg:text-2xl">
                 {item.field}
               </p>
               <p className="text-sm sm:text-base md:text-lg">{item.degree}</p>
